@@ -3,6 +3,7 @@ import './App.css';
 import ListItems from './ListItems'
 import './ListItems.css'
 import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 class App extends React.Component{
   constructor(props){
@@ -75,7 +76,7 @@ class App extends React.Component{
         <ListItems items = {this.state.items}
         deleteItem = {this.deleteItem}
         setUpdate= {this.setUpdate}></ListItems>
-        
+        <Footer></Footer>
       </div>
     )
   }

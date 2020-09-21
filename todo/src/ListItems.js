@@ -8,7 +8,7 @@ export default function ListItems(props){
                 <input 
                     type='text'
                     id={item.key} 
-                    value='{item.text}'
+                    value={item.text}
                     onChange= {
                         (e) => {
                             props.setUpdate(e.target.value,item.key)
