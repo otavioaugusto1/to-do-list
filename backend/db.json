@@ -1,11 +1,16 @@
 {
-    "tarefas":[{
-        "id":1,
-        "tarefa": "Estudar SO"
+  "tarefas": [
+    {
+      "id": 1,
+      "name": "Estudar so"
     },
     {
-        "id":2,
-        "tarefa":"Estudar web"
+      "id": 2,
+      "name": "Estudar web"
+    },
+    {
+      "name": "Tempo de lazer",
+      "id": 3
     }
-]
+  ]
 }

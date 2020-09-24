@@ -5,24 +5,7 @@ import './ListItems.css'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
-/*const baseUrl = 'http://localhost:3001/tarefas'
-const initialState ={
-  tarefas:{
-    //id,
-    tarefa:''
-  }
-}
-*/
- /*function save(){
-  const tarefas = this.state.tarefas
-  const method = tarefas.id ? 'put' : 'post'
-  const url = tarefas.id ? `${baseUrl}/${tarefas.id}` : baseUrl
-  axios[method](url,tarefas).then(resp =>{
-    const list = this.getUpdateList(resp.data)
-    this.setState({tarefas:initialState.tarefas,list})
-  })
-}
-*/
+
 class App extends React.Component{
   constructor(props){
     super(props);
